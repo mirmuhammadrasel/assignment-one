@@ -1,0 +1,82 @@
+* {
+margin: 0;
+padding: 0;
+}
+.hero-bg {
+background-image: url("Assets/Hero-bg.png");
+width: 100%;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+
+
+}
+
+
+.nav-bar {
+max-width: 1140px;
+height: 120px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 12px 132px;
+
+
+}
+
+.nav-bar h4 {
+
+
+color: #4642c7;
+font-size: 32px;
+padding: 12px;
+margin-top: 24px;
+
+
+}
+
+.capsul {
+width: 118px;
+height: 36px;
+background-color: #302bbe;
+border: none;
+border-radius: 8px;
+margin-top: 30px;
+
+}
+
+.capsul:hover{
+background-color: #3d37d8;
+}
+
+.nav-bar .capsul a {
+text-decoration: none;
+color: #FFFFFF;
+
+}
+
+
+.content {
+max-width: 905px;
+height: 237px;
+text-align: center;
+margin: 158px auto;
+position:relative;
+}
+
+.content p {
+font-size: 54px;
+font-weight: bold;
+}
+
+.content .capsul {
+width: 148px;
+height: 42px;
+margin-top: 37px;
+}
+
+.content .capsul a {
+text-decoration: none;
+color: #FFFFFF;
+}
